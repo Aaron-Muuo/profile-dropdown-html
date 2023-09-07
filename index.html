@@ -1,0 +1,50 @@
+<html>
+
+    <head>
+        <title>Profile drop down</title>
+        
+        <script src="https://use.fontawesome.com/313c4c400d.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="css/style.css"/>
+
+        
+    </head>
+    <body>
+        
+        <div class="profile-dropdown">
+            <div class="profile-dropdown-header">
+                
+<!--             do a check to see if image is set else display username initials-->
+                
+                <!-- <?php if(isset($profilePicture)):?>-->
+
+                <!-- placeholder image -->
+                 <img src="img/user.jpg" alt="Profile Image" class="profile-user-image">
+
+                <!-- <?php else:?>-->
+
+                <!-- User name Initials if image was not uploaded -->
+<!--                 <p class="profile-user-image-initials">AM</p>-->
+                <!-- <?php endif;?>-->
+                <span class="user-name">Aaron Muuo</span>
+                <span class="caret"><i class="fa fa-caret-down"></i></span> 
+            </div>
+            <div class="profile-dropdown-content">
+
+                <p>
+                    Administrator
+                    <br>
+                    <span style="">Muuo Creatives LTD</span>
+
+                </p>
+                
+                <a href="#"><i class="fa fa-cogs"></i> Account details</a>
+                <a href="#"><i class="fa fa-bell"></i> Notifications</a>
+                <a href="#"><i class="fa fa-power-off"></i> Logout</a>
+            </div>
+        </div>
+
+    
+        <script src="js/script.js"></script>
+    </body>
+</html>
